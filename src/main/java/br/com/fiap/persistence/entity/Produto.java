@@ -24,6 +24,10 @@ public class Produto {
     @Column(name = "quantidade")
     private int quantidade;
 
+    @ManyToOne(cascade = {CascadeType.DETACH, CascadeType.MERGE, CascadeType.PERSIST, CascadeType.REFRESH})
+    @JoinColumn(name = "id_pedido")
+    private Pedido pedido;
+
     public Produto(String nome, double valor, int quantidade) {
         this.nome = nome;
         this.valor = valor;

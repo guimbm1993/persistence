@@ -26,4 +26,5 @@ public class Cliente {
     @Column(name = "email")
     private String email;
 
+
 }
