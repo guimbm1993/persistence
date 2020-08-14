@@ -11,9 +11,9 @@ O projeto foi feito utilizando o Spring Boot, e foi dividido da seguinte forma: 
 ![Screenshot](Diagrama.png)
 
 **Instruções para executar**
-*1- Alterar usuário e senha do banco de dados no arquivo .properties do projeto (caso não não queira utilizar o docker-compose.yml adicionado na raiz do projeto)
-*2- O projeto pode ser executado através da classe PersistenceApplication, ou na raiz do projeto no terminal, executar o comando: ./mvnw spring-boot:run
-*3- Para interagir com os serviços, pode-se abrir o endereço http://127.0.0.1:8080/swagger-ui.html para ver os endpoints disponíveis e o que cada um espera como entrada
+* Alterar usuário e senha do banco de dados no arquivo .properties do projeto (caso não não queira utilizar o docker-compose.yml adicionado na raiz do projeto)
+* O projeto pode ser executado através da classe PersistenceApplication, ou na raiz do projeto no terminal, executar o comando: ./mvnw spring-boot:run
+* Para interagir com os serviços, pode-se abrir o endereço http://127.0.0.1:8080/swagger-ui.html para ver os endpoints disponíveis e o que cada um espera como entrada
 
 **Documentação**
 A documentação do projeto ficará disponível via swagger, acessando o endereço http://127.0.0.1:8080/swagger-ui.html
